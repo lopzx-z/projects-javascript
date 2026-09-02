@@ -5,19 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade 1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Sistema de Acesso</h1>
+    <div class="container">
+        <header>
+            <h1>Sistema de Acesso</h1>
+        </header>
 
-    <form id="form">
-        <input type="text" id="input">
-        <button type="submit">Verificar</button>
-    </form>
+        <main>
+            <form id="form">
+                <p>Informe sua idade</p>
+                <input type="number" id="input">
+                <button type="submit">Verificar</button>
+            </form>
 
-    <!-- MOSTRA MENSAGEM -->
-    <p id="msg"></p>
+            <!-- MOSTRA MENSAGEM -->
+            <p>Situação:</p>
+            <p id="msg"></p>
+        </main>
 
+    </div>
     <script src="main.js"></script>
 </body>
 
